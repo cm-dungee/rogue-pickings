@@ -1,0 +1,114 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+/****** HEADER ******/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	height: 110px;
+	padding: 20px;
+	position: relative;
+}
+#header-text {
+	color: #77a466;
+}
+h1 {
+	font-size: 30px;
+}
+header nav {
+	font-weight: bold;
+	color: #77a466;
+}
+nav li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 14px;
+}
+
+/****** IMAGE ******/
+.hero-image {
+	margin: 20px;
+	position: relative
+}
+img {
+	border-top: solid 5px #77a466;
+	border-bottom: solid 5px #77a466;
+	width: 100%;
+}
+
+/***** ABOUT SECTION ******/
+main {
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+}
+#sub-title {
+	color: #77a466;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+.about p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/****** ASIDE ******/
+aside {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 16px;
+}
+aside > div {
+	width: 33%;
+	height: 200px;
+	border: 2px solid #dedbdc;
+	padding-top: 10px
+}
+h4 {
+	text-transform: uppercase;
+}
+.column-one, .column-three {
+	border-right: none;
+	border-left: none;
+}
+.column-one p {
+	color: #77a466;
+}
+.column-two p {
+	line-height: 22px;
+	border-left: none;
+	padding-right: 20px;
+}
+.column-two, .column-three {
+	padding-left: 20px;
+}
+
+/****** FOOTER ******/
+footer {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	height: 80px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#footer-text {
+	color: #77a466;
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+}
